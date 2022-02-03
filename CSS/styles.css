@@ -459,3 +459,132 @@ header nav ul li a:hover
 {
   margin-left: 47.5%;
 }
+/*Page 4*/
+.container-contact-page 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /*border top page*/
+  border-top: darkblue;
+  border-top-style: solid;
+  border-top-width: 5px;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(30, 39, 80, 1) 50%,
+    rgba(0, 212, 255, 1) 50%
+  );
+}
+/*white block*/
+.container-contact-page .white-bg 
+{
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 70vh;
+  background-color: #fff;
+}
+/*form*/
+.container-contact-page .contact-form
+{
+  width: 500px;
+  height: 450px;
+  margin-top: -30%;
+  margin-left: 5%;
+}
+
+.container-contact-page .contact-form
+{
+  margin-top: -15vh;
+  margin-left: 10%;
+}
+
+.container-contact-page .contact-form .title-form
+{
+  margin-left: 35%;
+  font-size: 30px;
+}
+.container-contact-page .contact-form #email
+{
+  width: 600px;
+}
+.container-contact-page .contact-form #subject
+{
+  width: 600px;
+}
+.container-contact-page .contact-form #message
+{
+  width: 600px;
+}
+.container-contact-page .contact-form .submit-but
+{
+  margin-left: 50%;
+}
+
+/*contact info*/
+.container-contact-page .blue-bg 
+{
+  width: 30%;
+  height: 500px;
+  background-color: rgba(0, 212, 255, 1);
+  margin-left: -15%;
+}
+
+.container-contact-page .blue-bg a img
+{
+  width: 50px;
+}
+
+.container-contact-page .blue-bg .contact-info h2
+{
+  text-align: center;
+  font-size: 40px;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes
+{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes .gmail-png
+{
+  display: flex;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  align-items: center;
+  margin-right: 20px;
+}
+.container-contact-page .blue-bg .contact-info .linkjes .gmail-png p
+{
+  margin-left: 20px;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes .linkedin-png
+{
+  display: flex;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 30%;
+  align-items: center;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes .linkedin-png p
+{
+  margin-left: 20px;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes .github-png
+{
+  display: flex;
+  margin-left: 30%;
+  align-items: center;
+}
+
+.container-contact-page .blue-bg .contact-info .linkjes .github-png p
+{
+  margin-left: 20px;
+}
