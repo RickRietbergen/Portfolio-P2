@@ -277,3 +277,185 @@ header nav ul li a:hover
   background-color: #1E2761;
 }
 
+/*Page 3*/
+.container-about-page 
+{
+  display: flex;
+  background-color: #1E2761;
+  /*border top page*/
+  border-top: darkblue;
+  border-top-style: solid;
+  border-top-width: 5px;
+}
+
+.container-about-page .self-swimming-pic-about 
+{
+  width: 20%;
+  height: 50vh;
+  margin-top: 25vh;
+  margin-left: 10%;
+}
+
+.container-about-page .self-swimming-pic-about img 
+{
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+}
+
+.container-about-page .info-about-txtbox 
+{
+  width: 40%;
+  height: 40vh;
+  border-radius: 75px;
+  margin-top: 30vh;
+  margin-left: 10%;
+  background-color: white;
+}
+
+/*show on pc and mobile*/
+.container-about-page .info-about-txtbox .show
+{
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+/*dont show on phone*/
+.container-about-page .info-about-txtbox .not-on-phone
+{
+  margin-left: 5%;
+  margin-bottom: 40px;
+}
+
+.container-about-page .info-about-txtbox .same-but
+{
+  text-decoration: none;
+  margin-left: 7.5%;
+  padding: 15px;
+  border-radius: 20px;
+  color: white;
+  background-color: #1E2761;
+}
+
+/*but-about -> page for video,*/
+.zwemmen-vid-page
+{
+  width: 100%;
+  height: 90vh;
+  background-color: #1E2761;
+}
+/*txt next video*/
+.zwemmen-vid-page .about-vid-txt
+{
+  margin-left: 37.5%;
+}
+.zwemmen-vid-page .about-vid-txt h2
+{
+  font-size: 40px;
+  color: black;
+}
+/*video*/
+.zwemmen-vid-page .video-screen
+{
+  width: 65%;
+  height: 75vh;
+  margin-top: 7.5vh;
+  margin-left: 17.5%;
+}
+.vid-footer
+{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+.vid-footer .txt-footer-navbar a
+{
+  text-decoration: none;
+  font-size: 30px;
+  color: #1E2761;
+}
+.vid-footer .txt-footer-navbar a h2
+{
+  margin-left: 47.5%;
+}
+
+/*but-languages-table -> page with table*/
+.container-table
+{
+  width: 100%;
+  height: 90vh;
+  background-color: #1E2761;
+}
+.container-table .all-content
+{
+  margin-left: 40%;
+}
+.container-table .all-content .content-txt
+{
+  color: #009879;
+  font-size: 25px;
+}
+.container-table .all-content .content-table 
+{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: white;
+}
+
+.container-table .all-content .content-table thead tr 
+{
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+
+.container-table .all-content .content-table th,
+.container-table .all-content .content-table td 
+{
+  padding: 12px 15px;
+}
+
+.container-table .all-content .content-table tbody tr 
+{
+  border-bottom: 1px solid #dddddd;
+}
+
+.container-table .all-content .content-table tbody tr:nth-of-type(even) 
+{
+  background-color: #f3f3f3;
+}
+
+.container-table .all-content .content-table tbody tr:last-of-type 
+{
+  border-bottom: 2px solid #009879;
+}
+
+.container-table .all-content .content-table tbody tr.active-row 
+{
+  font-weight: bold;
+  color: #009879;
+}
+/*table page*/
+.table-footer
+{
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+}
+.table-footer .txt-footer-navbar-table a
+{
+  text-decoration: none;
+  font-size: 30px;
+  color: #1E2761;
+}
+.table-footer .txt-footer-navbar-table a h2
+{
+  margin-left: 47.5%;
+}
