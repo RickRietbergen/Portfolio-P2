@@ -588,3 +588,243 @@ header nav ul li a:hover
 {
   margin-left: 20px;
 }
+/*for phone*/
+@media only screen and (max-width: 414px) 
+{
+  body 
+  {
+    height: 600vh;
+    background-color: #1E2761;
+  }
+  /*hide de navbar*/
+  nav
+  {
+    display: none;
+  }
+  /*page 1*/
+  /*blocks*/
+  .container-start-page .start-page-pic-box .pic-behind-pic  
+  {
+    width: 225px;
+    height: 225px;
+    margin-top: 100px;
+    margin-left: 75px;
+  }
+  .container-start-page .start-page-pic-box .self-pic-start
+  {
+    width: 225px;
+    height: 225px;
+    margin-top: 125px;
+    margin-left: 100px;
+  }
+  .container-start-page .start-page-pic-box .colored-block
+  {
+    width: 225px;
+    height: 225px;
+    margin-top: 150px;
+    margin-left: 125px;
+  }
+  /*text on page*/
+  .container-start-page .txt-box 
+  {
+    font-size: 50px;
+    margin-top: 60vh;
+    margin-left: 20%;
+  }
+  /*page 2*/
+  .container-projects-page .projects-html
+  {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .container-projects-page .title_txt h3
+  {
+    margin-top: 10px;
+    margin-left: 20%;
+  }
+  .container-projects-page .projects-html .pic-html 
+  {
+    margin-top: 5vh;
+    margin-left: 17.5%;
+  }
+  .container-projects-page .projects-html .txt-html 
+  {
+    width: 80%;
+    height: 450px;
+    margin-top: 5vh;
+    margin-left: 10%;
+  }
+  /*page 3*/
+  .container-projects-page .projects-java 
+  {
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1E2761;
+    /*border*/
+    border-top: darkblue;
+    border-top-style: solid;
+    border-top-width: 5px;
+  }
+  .container-projects-page .projects-java .pic-java 
+  {
+    margin-top: 5vh;
+    margin-left: 17.5%;
+    position: absolute;
+  }
+  .container-projects-page .projects-java .txt-java 
+  {
+    position: absolute;
+    width: 80%;
+    height: 450px;
+    margin-top: 40vh;
+    margin-left: 10%;
+  }
+  .container-projects-page .projects-python .pic-python 
+  {
+    margin-left: 35% !important;
+    margin-right: 2%;
+  }
+
+  .container-projects-page .projects-python .pic-python img
+  {
+  width: 50%;
+  height: 100%;
+  border-radius: 30px;
+  }
+  /*page 4*/
+  .container-projects-page .projects-python
+  {
+    flex-direction: column;
+    height: 100vh;
+    background-color: #1E2761;
+    /*border*/
+    border-top: darkblue;
+    border-top-style: solid;
+    border-top-width: 5px;
+  }
+  .container-projects-page .projects-python .pic-python
+  {
+    margin-top: 5vh;
+    margin-left: 17.5%;
+  }
+  .container-projects-page .projects-python .txt-python 
+  {
+    width: 80%;
+    height: 450px;
+    margin-top: 5vh;
+    margin-left: 10%;
+  }
+  /*page 5*/
+  .container-about-page 
+  {
+    margin-top: 200vh;
+    flex-direction: column;
+  }
+  .container-about-page .self-swimming-pic-about 
+  {
+    width: 60%;
+    height: 40vh;
+    margin-top: 2.5vh;
+    margin-left: 20%;
+  }
+  .container-about-page .info-about-txtbox 
+  {
+    width: 80%;
+    height: 50vh;
+    border-radius: 0px;
+    border-top-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    margin-top: 3.5vh;
+  }
+  .container-about-page .info-about-txtbox p 
+  {
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 70px;
+  }
+  .container-about-page .info-about-txtbox .not-on-phone
+  {
+    display: none;
+  }
+  /*page 6*/
+  .container-contact-page .white-bg 
+  {
+    width: 80%;
+    height: 80vh;
+  }
+  .container-contact-page .contact-form
+  {
+    width: 500px;
+    height: 250px;
+    margin-top: -90%;
+  }
+  .container-contact-page .contact-form .title-form
+  {
+    margin-bottom: 30px;
+    margin-left: 5%;
+    font-size: 15px;
+  }
+  .container-contact-page .contact-form #email
+  {
+    width: 250px;
+  }
+  .container-contact-page .contact-form #subject
+  {
+    width: 250px;
+  }
+  .container-contact-page .contact-form #message
+  {
+    width: 250px;
+  }
+  .container-contact-page .contact-form .submit-but
+  {
+    margin-left: 35%;
+  }
+  .container-contact-page .blue-bg 
+  {
+    width: 15%;
+    height: 500px;
+    background-color: rgba(0, 212, 255, 1);
+    margin-left: -5%;
+  }
+  .container-contact-page .blue-bg a img
+  {
+    width: 40px;
+  }
+  .container-contact-page .blue-bg .contact-info h2
+  {
+    display: none;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes
+  {
+    width: 50px;
+    margin-top: 50px;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes .gmail-png
+  {
+    margin-bottom: 100px;
+    margin-left: 10%;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes .gmail-png p
+  {
+    display: none;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes .linkedin-png
+  {
+    margin-bottom: 100px;
+    margin-left: 10%;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes .linkedin-png p
+  {
+    display: none;
+  }
+  .container-contact-page .blue-bg .contact-info .linkjes .github-png
+  {
+    margin-left: 10%;
+  }
+.container-contact-page .blue-bg .contact-info .linkjes .github-png p
+  {
+    display: none;
+  }
+  /*end media querry*/
+}
